@@ -448,7 +448,7 @@ class Main:
 			os.system("clear")
 		print(logo)
 		print(" [▪]MENU METHOD")
-		print("\033[1;37mm - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - ")
+		print("\033[1;37m- - - - - - - - - - - - - - - - - - - - -- - - - - - - ")
 		print(" \033[1;37m[1]\033[0;97m FILE CLONING ")
 		print(" \033[1;37m[2] PUBLIC CLONING ")
 		print(" \33[1;37m[3] RANDOM CLONING ")
