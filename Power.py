@@ -388,27 +388,19 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
  
 logo = """
-\033[1;97m
-\33[1;37m══════════════════════════════════╗
    ________  __  ___________    
   / __/ __ \/  |/  /  _/  _/           
  _\ \/ /_/ / /|_/ // /_/ /            
 /___/\____/_/  /_/___/___/
-
-\33[1;37m══════════════════════════════════╝
-
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - 
-\33[1;37m╠══[Author   : MUHAMMAD SOMAIL
-\33[1;37m╠══[FACEBOOK : MUHAMMAD SOMAIL
-\33[1;37m╠══[CREATED  : SOMAIL BRAND
-\33[1;37m╠══[NETWORK  : \33[1;32mSPEED 4G \33[1;37m
-\33[1;37m╠══[TOOLS    : \33[1;32mFREE \33[1;37m
-\33[1;32m╠══[VERSION  : \33[1;32m0.01 \33[1;32m
-\33[1;37m- - - - - - - - - - - - - - - - - - - - - - - - - - - 
-
-
-
+\x1b[1;97m---------------------------------------------------
+\33[1;41mTOOLS AGAIN UPDATE SO FIRST SUBSCRIBE MY CHANNEL\33[0m
+\x1b[1;97m---------------------------------------------------
+\x1b[1;97m[+] Author  :  MUHAMMAD SOMAIL      
+\x1b[1;97m[+] facebook:  SOmii3232
+\x1b[1;97m[+] Github  :  SOMII-BRAND
+\x1b[1;97m[+] TEAM    :   \33[1;42mHBF\33[0m
+\x1b[1;97m[+] Version :\x1b[1;97m  0.0.2    \x1b[1;97m          
+\x1b[1;97m--------------------------------------
 """
  
 class Main:
